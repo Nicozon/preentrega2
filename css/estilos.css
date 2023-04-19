@@ -1,129 +1,108 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.navbar{
+    background-color:black;
 }
 
-html{
-    scroll-behavior: smooth; /*cambia el comportamiento del desplazamiento*/
+.navbar-brand{
+    font-size:40px;
+}
+.navbar span{
+    color:orange;
 }
 
-header{
-        background-color: rgb(201, 130, 0);
-        width: 100%;
-        height: 100px;
-        font-size: 24px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        text-transform: capitalize;
-        padding: 40px;
+.navbar-toggler{
+    border: none;
 }
 
-.logo{
-    float: left;
-    color:#000000;
-    font-weight: bold;
-}
-
-.barra{
-    float: right;
-}
-
-.barra li{
-    list-style: none;
-    display: inline-block;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
-.barra a{
-    text-decoration: none;
-    color:#ffffff;
-}
-
-.barra a:hover{
-    color:#333;
+.navbar .nav-link{
+    color:darkorange
 }
 
 main{
-    height: calc(100vh - 80px);
     width: 100%;
     background-color: #f37d39;
     background-image: url(../img/Main.JPG);
     background-size: cover;
     background-position: center;
-    padding-top: 5%;
-    padding-left: 20%;
 }
 
-.nosotros{
-    height: calc(100vh - 80px);
-    width: 100%;
-    background-color: #f37d39;
-    background-image: url(../img/nosotros.JPG);
+.nleft{
+    height: 800px;
+    background-image: url(../img/fotosoldi.jpg);
     background-size: cover;
     background-position: center;
-    padding-top: 5%;
-    padding-left: 20%;
-
+    margin-top: 0px;
 }
 
-.call h1{
-    color: white;
-    padding-bottom: 20px;
-    padding-left: 35%;
-}
-
-.call p{
-    width:80%;
-    font-size: 30px;
+.nright{
+    color:white;
     text-align: justify;
-    margin-bottom: 20px;
-    color: #000000;
-    background-color: beige;
-
+    text-shadow: 0 0 5px #000;
+    font-size: 20px;
+    padding-top: 30px;
+    margin-top: 0;
+    background-color: #f37d3970;
 }
 
-.content{
-    width: 100%;
-    margin-bottom: 25px;
-}
-
-.content img{
-    width: 35%;
-    float: left;
-}
-
-.content iframe{
-    width: 35%;
-    float: left;
-}
-
-.content p{
-    width: 50%;
-    padding-left: 15px;
-    padding-right: 100px;
-    font-size: 30px;
+h2{
+    background-color: #ff88009d;
     color:#fff;
-    float:right;
+    text-shadow: 0 0 5px #000;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 3px;
 }
 
-.content h1{
-    width: 50%;
-    padding-left: 15px;
-    font-size: 35px;
-    color:#f37d39;
-    float:right;
+.cursos{
+    width: 100%;
+    height: auto;
 }
 
-.content h2{
-    width: 50%;
-    padding-left: 15px;
-    color: white;
-    float: right;
+.nleftcursos{
+    height: 450px;
+    background-image: url(../img/cursos.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.nrightcursos{
+    color:white;
+    text-align: justify;
+    text-shadow: 0 0 5px #000;
+    font-size: 20px;
+    padding-top:30px;
+    background-color: #f3393970;
+}
+
+.nleftteatro{
+    height: 450px;
+    background-image: url(../img/teatro.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+}
+
+.nrightteatro{
+    color:white;
+    text-align: justify;
+    text-shadow: 0 0 5px #000;
+    font-size: 20px;
+    padding-top: 30px;
+    background-color: #f37d3970;
+}
+
+.nleftguitarra{
+    height: 450px;
+    background-image: url(../img/guitarra.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
 }
 
 footer{
     background-color: #000;
+    background-size: cover;
     color: #fff;
     text-align: center;
     font-size: 12px;
@@ -147,7 +126,7 @@ footer{
     position: fixed;
     right: 40px;
     bottom: 40px;
-    background-color: rgb(201, 130, 0);
+    background-color: orange;
     padding: 15px;
     color: #fff;
     font-size: 20px;
